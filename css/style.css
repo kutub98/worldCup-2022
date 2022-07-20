@@ -43,6 +43,7 @@ version : 1.0.0
    
     background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(2, 161, 74) 100%);
     
+    background: linear-gradient(to right, rgb(2, 161, 74), rgb(1, 138, 74));
 }
 
 .topMenu{
