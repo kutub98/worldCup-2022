@@ -1,4 +1,15 @@
 @media screen and (min-width: 992px) and (max-width: 1300px) {
+  .menubar ul li{
+    
+    margin: 0 2px;
+}
+.fa-bars,
+.menubar ul li a{
+    font-size: 20px;
+    padding: 14px;
+    
+}
+  
   /*====== slider part start =========*/
   #sliderPart {
     height: 400px;
@@ -82,6 +93,9 @@
 }
 
 @media screen and (min-width: 778px) and (max-width: 991px) {
+  .menubar{
+    display: none;
+  }
   /*====== slider part start =========*/
   #sliderPart {
     height: 350px;
@@ -164,6 +178,9 @@
 }
 
 @media screen and (min-width: 577px) and (max-width: 777px) {
+  .menubar{
+    display: none;
+  }
   /*====== slider part start =========*/
 
   #sliderPart {
@@ -230,7 +247,7 @@
     text-align: center;
     font-size: 18px;
     padding: 10px 20px;
-    margin: 10px 10px;
+    margin: 10px 8px;
     text-transform: capitalize;
   }
   .matchsDetails {
@@ -246,7 +263,12 @@
 }
 
 @media screen and (max-width: 576px) {
+
+  .menubar {
+    display: none;
+  }
   /*====== slider part start =========*/
+
   #sliderPart {
     height: 606px;
     justify-content: center;
@@ -321,6 +343,9 @@
   /*====== matchSchedule part end =========*/
 }
 @media screen and (min-width: 276px) and (max-width: 430px) {
+  .menubar {
+    display: none;
+  }
   /*====== slider part start =========*/
   #sliderPart {
     height: 645px;
