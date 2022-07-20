@@ -158,6 +158,10 @@ version : 1.0.0
     transition: .2s linear ease-in;
 }
 .matchs ul a:last-child{
+    background: white;
+    color: black;
+}
+.matchs ul a:first-child{
     background: orangered;
     color: white;
 }
