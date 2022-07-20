@@ -55,7 +55,7 @@ version : 1.0.0
    
 }
 .sliderText h1{
-    font-size: 70px;
+    font-size: 55px;
     color: white;
     font-weight: bold;
 }
@@ -194,7 +194,7 @@ version : 1.0.0
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(7, 182, 7, 0.534);
+    background: rgb(164, 243, 164);
     padding: 0;
 }
 .ar{
