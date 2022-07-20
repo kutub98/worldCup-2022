@@ -1,395 +1,367 @@
-
-
-
-
-
 @media screen and (min-width: 992px) and (max-width: 1300px) {
-    /*====== slider part start =========*/
-    #sliderPart{
-        height: 400px;
-    }
-    .sliderPartStart{
-        display: flex;
-        justify-content: space-between;
-    }
-    .sliderImg,
-    .sliderText{
-        width: 420px;
-    }
-    .sliderText{
-        left: 0;
-    }
-    .sliderText h1{
-        font-size: 49px;
-    }
-    .sliderText p{
-        font-size: 20px;
-    }
-    .sliderImg img {
-        overflow: hidden;
-        position: absolute;
-        width: 697px;
-        height: 370px;
-        top: -50px;
-        right: -78px;
-    }
+  /*====== slider part start =========*/
+  #sliderPart {
+    height: 400px;
+  }
+  .sliderPartStart {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sliderImg,
+  .sliderText {
+    width: 420px;
+  }
+  .sliderText {
+    left: 0;
+  }
+  .sliderText h1 {
+    font-size: 49px;
+  }
+  .sliderText p {
+    font-size: 20px;
+  }
+  .sliderImg img {
+    overflow: hidden;
+    position: absolute;
+    width: 697px;
+    height: 370px;
+    top: -50px;
+    right: -78px;
+  }
 
-    /*====== slider part end =========*/
-     /*====== slider part end =========*/
+  /*====== slider part end =========*/
+  /*====== slider part end =========*/
 
-     #matchSchedule{
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .matchsPart{
-        display: inline-block;
-        justify-content: center;
-      
-        
-    }
-    .matchs{
-        width: 100%;
-        background: rgb(26, 17, 17);
-        padding: 25px;
-        height: 70px;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        align-items: center;
-    }
-    .blogDetails{
-        width: 100%;
-    }
-    .matchs ul {
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-    .matchs ul a{
-     display: inline;
+  #matchSchedule {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .matchsPart {
+    display: inline-block;
+    justify-content: center;
+  }
+  .matchs {
+    width: 100%;
+    background: rgb(26, 17, 17);
+    padding: 25px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  }
+  .blogDetails {
+    width: 100%;
+  }
+  .matchs ul {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .matchs ul a {
+    display: inline;
     border: 1px solid rgb(192, 190, 190);
     text-align: center;
     font-size: 20px;
-    padding: 10px 20px ;
+    padding: 10px 20px;
     margin: 0px 20px;
     text-transform: capitalize;
-   
-    }
-    .matchsDetails{
-     
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-        margin: 20px 0;
-
-    }
-    .footerNav ul li{
-        display: inline-block;
-        margin: 8px 20px;
-    }
-    /*====== matchSchedule part end =========*/
-    
+  }
+  .matchsDetails {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 20px 0;
+  }
+  .footerNav ul li {
+    display: inline-block;
+    margin: 8px 20px;
+  }
+  /*====== matchSchedule part end =========*/
 }
 
-
-
 @media screen and (min-width: 778px) and (max-width: 991px) {
-    /*====== slider part start =========*/
-    #sliderPart{
-        height: 350px;
-    }
-    .sliderPartStart{
-        display: flex;
-        justify-content: space-between;
-    }
-    .sliderImg,
-    .sliderText{
-        width: 420px;
-    }
-    .sliderText{
-        left: 0;
-    }
-    .sliderText h1{
-        font-size: 39px;
-    }
-    .sliderText p{
-        font-size: 16px;
-    }
-    .sliderImg img {
-        overflow: hidden;
-        position: absolute;
-        width: 473px;
-        height: 320px;
-        top: -50px;
-        right: -78px;
-    }
-    /*====== slider part end =========*/
+  /*====== slider part start =========*/
+  #sliderPart {
+    height: 350px;
+  }
+  .sliderPartStart {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sliderImg,
+  .sliderText {
+    width: 420px;
+  }
+  .sliderText {
+    left: 0;
+  }
+  .sliderText h1 {
+    font-size: 39px;
+  }
+  .sliderText p {
+    font-size: 16px;
+  }
+  .sliderImg img {
+    overflow: hidden;
+    position: absolute;
+    width: 473px;
+    height: 320px;
+    top: -50px;
+    right: -78px;
+  }
+  /*====== slider part end =========*/
 
-    /*====== slider part end =========*/
+  /*====== slider part end =========*/
 
-    #matchSchedule{
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .matchsPart{
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .matchs{
-        width: 100%;
-        background: #fff;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
-    .blogDetails{
-        width: 100%;
-    }
-    .matchs ul {
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-    .matchs ul a{
-     display: inline;
+  #matchSchedule {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .matchsPart {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  .matchs {
+    width: 100%;
+    background: #fff;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .blogDetails {
+    width: 100%;
+  }
+  .matchs ul {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .matchs ul a {
+    display: inline;
     border: 1px solid rgb(192, 190, 190);
     text-align: center;
     font-size: 18px;
-    padding: 10px 20px ;
+    padding: 10px 20px;
     margin: 10px 20px;
     text-transform: capitalize;
-   
-    }
-    .matchsDetails{
-     
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-        margin: 20px 0;
-
-    }
-    .footerNav ul li{
-        display: inline-block;
-        margin: 8px 20px;
-    }
-    /*====== matchSchedule part end =========*/
+  }
+  .matchsDetails {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 20px 0;
+  }
+  .footerNav ul li {
+    display: inline-block;
+    margin: 8px 20px;
+  }
+  /*====== matchSchedule part end =========*/
 }
 
 @media screen and (min-width: 577px) and (max-width: 777px) {
-    /*====== slider part start =========*/
+  /*====== slider part start =========*/
 
-    #sliderPart{
-        height: 380px;
-    }
-    .sliderPartStart{
-        display: flex;
-        justify-content: space-between;
-    }
-    .sliderImg,
-    .sliderText{
-        width: 400px;
-    }
-    .sliderText{
-        left: 0;
-    }
-    .sliderText h1{
-        font-size: 35px;
-    }
-    .sliderText p{
-        font-size: 14px;
-    }
-    .sliderImg img {
-        width: 473px;
-        height: 350px;
-        top: -50px;
-        right: -78px;
-    }
-    /*====== slider part end =========*/
+  #sliderPart {
+    height: 380px;
+  }
+  .sliderPartStart {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sliderImg,
+  .sliderText {
+    width: 400px;
+  }
+  .sliderText {
+    left: 0;
+  }
+  .sliderText h1 {
+    font-size: 35px;
+  }
+  .sliderText p {
+    font-size: 14px;
+  }
+  .sliderImg img {
+    width: 473px;
+    height: 350px;
+    top: -50px;
+    right: -78px;
+  }
+  /*====== slider part end =========*/
 
-    #matchSchedule{
-        justify-content: center;
-        align-items: center;
-    }
-    .tab{
-        display: block;
-        margin: 20px auto;
-    }
-    .matchsPart{
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .matchs{
-        width: 100%;
-        background: #fff;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
-    .blogDetails{
-        width: 100%;
-    }
-    .matchs ul {
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-    .matchs ul a{
-     display: inline;
+  #matchSchedule {
+    justify-content: center;
+    align-items: center;
+  }
+  .tab {
+    display: block;
+    margin: 20px auto;
+  }
+  .matchsPart {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  .matchs {
+    width: 100%;
+    background: #fff;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .blogDetails {
+    width: 100%;
+  }
+  .matchs ul {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .matchs ul a {
+    display: inline;
     border: 1px solid rgb(192, 190, 190);
     text-align: center;
     font-size: 18px;
-    padding: 10px 20px ;
-    margin: 10px 15px;
+    padding: 10px 20px;
+    margin: 10px 10px;
     text-transform: capitalize;
-   
-    }
-    .matchsDetails{
-     
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-        margin: 20px 0;
-
-    }
-    .footerNav ul li{
-        display: block;
-        margin: 8px 20px;
-    }
-    /*====== matchSchedule part end =========*/
-    
+  }
+  .matchsDetails {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 20px 0;
+  }
+  .footerNav ul li {
+    display: block;
+    margin: 8px 20px;
+  }
+  /*====== matchSchedule part end =========*/
 }
 
 @media screen and (max-width: 576px) {
-    /*====== slider part start =========*/
-    #sliderPart{
-        height: 606px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .sliderPartStart{
-        display: block;
-    }
-    .sliderImg img {
-        width: 600px;
-        height: 323px;
-        top: -43px;
-        right: -36px;
-    }
-    .sliderText h1{
-        font-size: 40px;
-    }
-    .sliderText{
-        top: 10px;
-        left: 0px;
-    }
-    .sliderText p{
-        font-size: 16px;
-    }
-    /*====== slider part end =========*/
-    /*====== matchSchedule part start =========*/
-    #matchSchedule{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .matchsPart{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .matchs{
-        background: #fff;
-        width: 60%;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
-    .blogDetails{
-        width: 100%;
-    }
-    .matchs ul {
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-    .matchs ul a{
+  /*====== slider part start =========*/
+  #sliderPart {
+    height: 606px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .sliderPartStart {
+    display: block;
+  }
+  .sliderImg img {
+    width: 600px;
+    height: 323px;
+    top: -43px;
+    right: -36px;
+  }
+  .sliderText h1 {
+    font-size: 40px;
+  }
+  .sliderText {
+    top: 10px;
+    left: 0px;
+  }
+  .sliderText p {
+    font-size: 16px;
+  }
+  /*====== slider part end =========*/
+  /*====== matchSchedule part start =========*/
+  #matchSchedule {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .matchsPart {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .matchs {
+    background: #fff;
+    width: 60%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .blogDetails {
+    width: 100%;
+  }
+  .matchs ul {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .matchs ul a {
     display: block;
     border: 1px solid rgb(192, 190, 190);
     text-align: center;
     font-size: 18px;
-    padding: 10px ;
+    padding: 10px;
     width: 100%;
     text-transform: capitalize;
-   
-    }
-    .matchsDetails{
-     
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
-
-    }
-    .footerNav ul li{
-        display: block;
-        margin: 8px 20px;
-    }
-    /*====== matchSchedule part end =========*/
+  }
+  .matchsDetails {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .footerNav ul li {
+    display: block;
+    margin: 8px 20px;
+  }
+  /*====== matchSchedule part end =========*/
 }
-@media screen and (min-width: 276px )and (max-width: 430px){
+@media screen and (min-width: 276px) and (max-width: 430px) {
+  /*====== slider part start =========*/
+  #sliderPart {
+    height: 645px;
+  }
+  .sliderImg img {
+    width: 411px;
+    height: 233px;
+    top: -43px;
+    right: -55px;
+  }
 
-    /*====== slider part start =========*/
-    #sliderPart{
-        height: 645px;
-    }
-    .sliderImg img {
-        width: 411px;
-        height: 233px;
-        top: -43px;
-        right: -55px;
-    }
-   
-    /*====== slider part end =========*/
-    /*====== matchSchedule part start =========*/
-    #matchSchedule{
-        justify-content: center;
-        align-items: center;
-    }
-    .matchsPart{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .matchs{
-        background: #fff;
-        width: 60%;
-       height: auto;
-       align-items: center;
-       justify-content: center;
-      margin: auto;
-    }
-    .blogDetails{
-        width: 100%;
-    }
-    .matchs ul {
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-    .matchs ul a{
+  /*====== slider part end =========*/
+  /*====== matchSchedule part start =========*/
+  #matchSchedule {
+    justify-content: center;
+    align-items: center;
+  }
+  .matchsPart {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .matchs {
+    background: #fff;
+    width: 60%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .blogDetails {
+    width: 100%;
+  }
+  .matchs ul {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .matchs ul a {
     display: block;
     border: 1px solid rgb(192, 190, 190);
     text-align: center;
     font-size: 14px;
-    padding: 10px ;
+    padding: 10px;
     width: 100%;
     text-transform: capitalize;
     color: black;
@@ -399,21 +371,21 @@
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    transition: .2s linear ease-in;
-    -webkit-transition: .2s linear ease-in;
-    -moz-transition: .2s linear ease-in;
-    -ms-transition: .2s linear ease-in;
-    -o-transition: .2s linear ease-in;
-    }
-    .matchsDetails{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
-        margin: 0 5px;
-    }
-    .footerNav ul li{
-        display: block;
-        margin: 8px 20px;
-    }
-    /*====== matchSchedule part end =========*/
+    transition: 0.2s linear ease-in;
+    -webkit-transition: 0.2s linear ease-in;
+    -moz-transition: 0.2s linear ease-in;
+    -ms-transition: 0.2s linear ease-in;
+    -o-transition: 0.2s linear ease-in;
+  }
+  .matchsDetails {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin: 0 5px;
+  }
+  .footerNav ul li {
+    display: block;
+    margin: 8px 20px;
+  }
+  /*====== matchSchedule part end =========*/
 }
