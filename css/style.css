@@ -162,6 +162,24 @@ version : 1.0.0
 }
 .blogDetails{
     width: 230px;
+    background: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 8px;
+    cursor: pointer;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    
+}
+.blogDetails:hover{
+    background: rgb(1,102,111);
+    color: #fff;
+    transition: .2s ease-in;
+    -webkit-transition: .2s ease-in;
+    -moz-transition: .2s ease-in;
+    -ms-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
 }
 .blogImg{
     width: 100%;
@@ -175,7 +193,12 @@ version : 1.0.0
     padding: 20px 10px;
     border: 1px solid grey;
     border-top: none;
-    margin-top: -5px;
+    margin-top: -8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 
 .blogContent a{
@@ -187,6 +210,10 @@ version : 1.0.0
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+.blogDetails:hover .blogContent a{
+    color: #fff;
+    border:1px solid #fff;
 }
 .blogContent h4{
     font-size: 18px;
